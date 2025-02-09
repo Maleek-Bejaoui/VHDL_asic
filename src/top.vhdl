@@ -15,7 +15,7 @@ entity tt_um_top is
     );
 end tt_um_top;
 
-architecture Behavioral of top is
+architecture Behavioral of tt_um_top is
 
  component compteur port ( clk : in STD_LOGIC;
            rst : in STD_LOGIC;
