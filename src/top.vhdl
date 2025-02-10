@@ -30,7 +30,7 @@ begin
     
      U1 : compteur  port map (
                             clk => clk,
-                            rst => !rst_n,
+                            rst => not(rst_n),
                             cmpt =>   uo_out
                         );
 
